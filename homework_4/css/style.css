@@ -1,0 +1,59 @@
+.header h1{
+    color: rgb(65, 74, 124);
+}
+.header * {
+    color: bisque !important;
+}
+.header .header__navigation li {
+    color: black ;
+}
+
+.header__navigation a {
+    color: blueviolet ;
+}
+.header__title {
+}
+
+.information__text {
+    color: rebeccapurple;
+}
+
+.main__title,
+.main__text {
+    color: violet;
+}
+.main__block > h2 {
+    color: #000;
+}
+#some-id {
+    color: rgb(50, 54, 54);
+}
+
+
+p.text {
+    color: green;
+}
+
+.main__title.title {
+    color: yellowgreen; 
+}
+.footer__block p{
+    color: rgb(193, 9, 9);
+}
+
+.pink-text {
+    color: pink;
+}
+/* .main__title ~ p {    (Красить всі p)
+    color:rgb(32, 34, 34);
+}
+*/
+/* .main__image + p {   (такоє працює красить всі p після main__image)
+    color :brown;
+} 
+*/
+
+[class*="__modification"] {
+    color :blue;
+}
+
