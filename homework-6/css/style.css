@@ -1,0 +1,161 @@
+/* ========================= ШРИФТИ =============================== */
+
+/*------------------- Підключення шрифтів ------------------------- */
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Poppins:600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+/* Підключення вручну */
+/* @import url("fonts.css"); */
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+
+body {
+	font-family:  Inter ,sans-serif; 
+	font-size: 18px; 
+	color: #7d7d7d; 
+	font-weight: 400;
+}
+
+/* контейнер */
+[class*="__container"] {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+/* -------------- */
+
+.header {
+}
+.header-why {
+	padding-top:  50px;
+	padding-bottom: 42px;
+}
+.header-why__image {
+	margin-bottom: 37px;
+}
+	
+.header-why__title {
+	color: #37393F;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 127%; /* 38.1px */
+	margin-bottom: 30px;
+}
+.header-why__text {
+	line-height: 146.187%; /* 26.314px */
+	max-width: 692px;
+}
+
+/* --------------------------------------------------------------------------- */
+.page-benefits {
+}
+.page-benefits__title {
+	max-width: 692px;
+	color: #6B77E5;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 127%; /* 25.4px */
+	margin-bottom: 12px;
+}
+.page-benefits__text {
+	max-width: 692px;
+	line-height: 146.187%;
+	margin-bottom: 40px;
+}
+.page-benefits__ourbenefits {
+}
+.ourbenefits {
+}
+.ourbenefits__row {
+	display: flex;
+}
+.ourbenefits__img {
+	flex: 0 1 50%;
+	text-align: center;
+}
+.ourbenefits__body {
+	flex: 0 1 50%;
+}
+.ourbenefits__title {
+	color: #37393F;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 127%; /* 31.75px */
+	padding-bottom: 15px;
+}
+.ourbenefits__subtitle {
+	color: #40DDB6;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 127%; /* 25.4px */
+	padding-bottom: 23px;
+}
+.ourbenefits__list {
+	color: #7D7D7D;
+	font-family: Inter;
+	line-height: 120%;
+}
+
+.ourbenefits__list li::before {
+	content: "";
+	background-image: url(../img/benefits/accept.svg);
+	display: inline;
+	margin-right: 10px;
+	padding-top: 6px;
+	padding-left: 4.5%;
+}
+.ourbenefits__list li {
+	margin-bottom: 30px;
+}
+
+/* -------------------------------------------------------------------------------*/
+
+
+.page-whatwedo {
+	padding-top: 50px;
+}
+.whatwedo {
+}
+
+.whatwedo__row {
+	display: flex;
+}
+.whatwedo__body {
+	flex: 0 1 50%;
+}
+.body-whatwedo {
+}
+.body-whatwedo__title {
+	text-transform: uppercase;
+	color: #D06B00;
+	font-size: 28px;
+	line-height: 1.4;
+}
+.body-whatwedo__sub-title {
+	color: #0E333D;
+	font-family: DM Serif Text;
+	font-size: 59px;
+	line-height: 146.5%; /* 86.435px */
+}
+.body-whatwedo__text {
+	color: #474747;
+	font-family: Inter;
+	font-size: 20px;
+	line-height: 180%; /* 36px */
+}
+
+.whatwedo__images {
+	flex: 0 1 50%;
+	display: flex;
+	gap: 22px;
+}
+.whatwedo__images img {
+	max-width: 100%;
+	max-height: 518px;
+}
+
